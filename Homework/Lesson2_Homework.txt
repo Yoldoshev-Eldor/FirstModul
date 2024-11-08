@@ -74,7 +74,27 @@ namespace Lesson2_hw
             //    result = 0;
             //}
             //Console.WriteLine(boolen);
-
+            //6 - misol
+            //Console.Write(" N sonini kiriting : ");
+            //var value = Convert.ToInt32(Console.ReadLine());
+            //var result = 1;
+            //var boolen = false;
+            //while (result <= value)
+            //{
+            //    result *= 3;
+            //    if (result == value)
+            //    {
+            //        boolen = true;
+            //    }
+            //}
+            //if (boolen)
+            //{
+            //    Console.WriteLine(" 3 ning darajasi ");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" 3 ning darajasi emas");
+            //}
         }
     }
 }
