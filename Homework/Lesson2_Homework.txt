@@ -1,0 +1,80 @@
+namespace Lesson2_hw
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //    1 - misol
+            //    Console.Write(" Sonni kiriting : ");
+            //    var value = Convert.ToInt32(Console.ReadLine());
+            //    var count = 0;
+            //    for (var i = 0; value > 0; i++)
+            //    {
+            //        value /= 10;
+            //        count++;
+            //    }
+            //    Console.WriteLine(count + " xonali ");
+            //2 - misol
+            //Console.Write(" Sonni kiriting : ");
+            //var value = Convert.ToInt32(Console.ReadLine());
+            //var count = 0;
+            //for (var i = 0; value > 0; i++)
+            //{
+            //    var result = value % 10;
+            //    if (result % 2 == 0)
+            //    {
+            //        count++;
+            //    }
+            //    value /= 10;
+            //    result = 0;
+            //}
+            //Console.WriteLine(count + " ta juft son bor ");
+            //3 - misol
+            //var result = 0;
+            //while (true)
+            //{
+            //    Console.Write(" son kiriting : ");
+            //    var value = Convert.ToInt32(Console.ReadLine());
+            //    if (value == 0)
+            //    {
+            //        break;
+            //    }
+            //    result += value;
+            //}
+            //Console.WriteLine(" Result " + result);
+            //4 - misol
+            //var result = 0;
+            //while (true)
+            //{
+            //    Console.Write(" son kiriting : ");
+            //    var value = Convert.ToInt32(Console.ReadLine());
+            //    if (value == 0)
+            //    {
+            //        break;
+            //    }
+            //    if (value > 50)
+            //    {
+            //        result += value;
+            //    }
+            //}
+            //Console.WriteLine(" Result " + result);
+            //5 - misol
+            //var boolen = true;
+            //Console.Write(" Son kiriting : ");
+            //var value = Convert.ToInt32(Console.ReadLine());
+            //for (var i = 0; value > 0; i++)
+            //{
+            //    var result = value % 10;
+            //    if (result == 5)
+            //    {
+            //        boolen = false;
+            //        break;
+            //    }
+            //    value /= 10;
+            //    result = 0;
+            //}
+            //Console.WriteLine(boolen);
+
+        }
+    }
+}

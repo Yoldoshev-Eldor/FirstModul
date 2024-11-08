@@ -1,0 +1,529 @@
+namespace Lsson1_HW
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //            11 - misol
+            //             Console.WriteLine("4 xonali son");
+            //            var number = Convert.ToInt32(Console.ReadLine());
+            //            var tens = number / 10 % 10;
+            //            var first = number % 10;
+            //            var numberResult = (number / 100);
+            //            var result = ((numberResult * 10) + first) * 10 + tens;
+            //            Console.WriteLine(result);
+            //            12 - misol
+            //              Console.WriteLine("3 xonali son");
+            //            var number = Convert.ToInt32(Console.ReadLine());
+            //            var hundred = number / 100;
+            //            var tens = number / 10 % 10;
+            //            var first = number % 10;
+            //            Console.WriteLine((tens * 100) + (hundred * 10) + first);
+
+            //            13 - misol
+            //              Console.WriteLine("4 xonali son");
+            //            var number = Convert.ToInt32(Console.ReadLine());
+            //            var thousand = number / 1000;
+            //            var hundred = number / 100 % 10;
+            //            var tens = number / 10 % 10;
+            //            var first = number % 10;
+            //            var result = (tens * 1000) + (hundred * 100) + (thousand * 10) + first;
+            //            Console.WriteLine(result);
+            //            14 - misol
+            //              Console.Write("Gb kiritingv: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            Console.WriteLine(value * 1024 + " Mb");
+            //            15 - misol
+            //            Console.Write("Gb kiritingv: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            Console.WriteLine(value * 1024 * 1024 * 8 + " bit ");
+            //            16 - misol
+            //             Console.Write("Gb kiritingv: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            Console.WriteLine(value / 1024 + " Tb");
+            //            17 - misol
+            //              Console.Write("Gb fleshkani kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            Console.WriteLine(value / 2 + " sigadi ");
+            //            /////////////////////////////////////////////////////////////////////////////////////////////////////
+            //            2 - misol
+            //              Console.Write("son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            var resultFirst = value * value;
+            //            var resultSecond = resultFirst * resultFirst * resultFirst;
+            //            Console.WriteLine(resultSecond);
+            //            //////////////////////////////////////////////////////////////////////////////////////////////////
+            //            1 - misol
+            //              Console.Write("son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value % 2 == 0)
+            //            {
+            //                Console.WriteLine(" Berilgan son Juft ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" Berilgan son toq");
+            //            }
+            //            2 - misol
+            //             Console.Write("son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value % 2 == 1)
+            //            {
+            //                Console.WriteLine(" Berilgan son Toq ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" Berilgan son Juft");
+            //            }
+            //            3 - misol
+            //             Console.Write("son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            var count = 0;
+            //            for (var i = 0; value > i; i++)
+            //            {
+            //                count++;
+            //                value = value / 10;
+
+            //            }
+            //            if (count == 2)
+            //            {
+            //                Console.WriteLine(" berilgan son 2 xonali");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("berilgan son ikki xonali emas ");
+            //            }
+            //            4 - misol
+            //            Console.Write(" SOn kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            var count = 0;
+            //            for (var i = 0; value > 0; i++)
+            //            {
+            //                count++;
+            //                value = value / 10;
+
+            //            }
+            //            if (count == 4)
+            //            {
+            //                Console.WriteLine(" berilgan son 4 xonali");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("berilgan son 4 xonali emas ");
+            //            }
+            //            5 - misol
+            //             Console.Write("son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            var result = value;
+            //            var count = 0;
+            //            for (var i = 0; value > 0; i++)
+            //            {
+            //                count++;
+            //                value = value / 10;
+
+            //            }
+            //            if (count == 2 && result > 9 && result < 100 && result % 2 == 0)
+            //            {
+            //                Console.WriteLine(" true ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" False ");
+            //            }
+
+            //            6 - misol
+            //            Console.Write("son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value > 99 && value < 1000 && value % 2 == 1)
+            //            {
+            //                Console.WriteLine(" true ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" False ");
+            //            }
+            //            7 - misol
+            //            Console.Write("son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value > 999 && value < 10000 && value % 2 == 0)
+            //            {
+            //                Console.WriteLine(" true ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" False ");
+            //            }
+            //            8 - misol
+            //            Console.Write(" 1 - sonni kiriting: ");
+            //            var resultFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" 2 - sonni kiriting: ");
+            //            var resultSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (resultFirst % 2 == 1 && resultSecond % 2 == 1)
+            //            {
+            //                Console.WriteLine(" true ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("False");
+            //            }
+            //            9 - misol
+            //            Console.Write(" 1 - sonni kiriting: ");
+            //            var resultFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" 2 - sonni kiriting: ");
+            //            var resultSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (resultFirst % 2 == 0 && resultSecond % 2 == 0)
+            //            {
+            //                Console.WriteLine(" true ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("False");
+            //            }
+            //            10 - misol
+            //             Console.Write(" 1 - sonni kiriting: ");
+            //            var resultFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" 2 - sonni kiriting: ");
+            //            var resultSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (resultFirst % 2 == 1 && resultSecond % 2 == 1 && resultFirst > 9 && resultFirst < 100 && resultSecond > 9 && resultSecond < 100)
+            //            {
+            //                Console.WriteLine(" true ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("False");
+            //            }
+            //            11 - misol
+            //             Console.Write(" SOnni kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value / 10 == value % 10)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" False ");
+            //            }
+            //            12 - misol
+            //            Console.Write(" Sonni kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if ((value / 10 + value % 10) > 10)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" False ");
+            //            }
+            //            13 - misol
+            //             Console.Write(" 2 xonali Sonni kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (((value / 10) * (value % 10)) > 20)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" False ");
+            //            }
+            //            14 - misol
+            //             Console.Write(" 2 xonali Sonni kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if ((value / 10) % 2 == 1 && (value % 10) % 2 == 1)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" False ");
+            //            }
+            //            15 - misol
+            //             Console.Write(" 2 xonali Sonni kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if ((value / 10) > 5 && (value % 10) > 5)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" False ");
+            //            }
+            //            16 - misol
+            //            Console.Write(" Son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value % 3 == 0)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" false ");
+            //            }
+            //            17 - misol
+            //            Console.Write(" Son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value % 3 == 0 && value % 8 == 0)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" false ");
+            //            }
+            //            19 - misol
+            //            Console.Write(" Son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value % 7 == 0 || value % 9 == 0)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" false ");
+            //            }
+            //            20 - misol
+            //            Console.Write(" Son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value % 3 == 0)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" false ");
+            //            }
+            //            21 - misol
+            //            Console.Write(" Son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value % 5 != 0)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" false ");
+            //            }
+            //            22 - misol
+            //            Console.Write(" Son kiriting: ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            if (value % 3 != 0 && value % 4 == 0)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(" false ");
+            //            }
+            //            23 - misol
+            //             Console.Write(" a sonni Kiriting :");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni Kiriting :");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (valueFirst > valueSecond)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("False");
+            //            }
+            //            24 - misol
+            //            Console.Write(" a sonni Kiriting :");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni Kiriting :");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (valueFirst == valueSecond)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("False");
+            //            }
+            //            25 - misol
+            //            Console.Write(" a sonni Kiriting :");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni Kiriting :");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" c sonni Kiriting :");
+            //            var valueThird = Convert.ToInt32(Console.ReadLine());
+            //            if (valueFirst > valueSecond && valueFirst > valueThird)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("False");
+            //            }
+            //            26 - misol
+            //            Console.Write(" a sonni Kiriting :");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni Kiriting :");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" c sonni Kiriting :");
+            //            var valueThird = Convert.ToInt32(Console.ReadLine());
+            //            if (valueThird > valueSecond && valueFirst < valueThird)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("False");
+            //            }
+            //            27 - misol
+            //            Console.Write(" a sonni Kiriting :");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni Kiriting :");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" c sonni Kiriting :");
+            //            var valueThird = Convert.ToInt32(Console.ReadLine());
+            //            if (valueFirst > valueSecond && valueSecond < valueThird)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("False");
+            //            }
+            //            28 - misol
+            //             Console.Write(" a sonni Kiriting :");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni Kiriting :");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (valueSecond * 2 == valueFirst)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("False");
+            //            }
+            //            29 - misol
+            //            Console.Write(" a sonni Kiriting :");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni Kiriting :");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (valueSecond == valueFirst * 5)
+            //            {
+            //                Console.WriteLine(" True ");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("False");
+            //            }
+            //            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            //            10 - misol
+            //             Console.Write(" a sonni kiriting ");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni kiriting ");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (valueFirst > valueSecond)
+            //            {
+            //                Console.WriteLine(valueFirst);
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(valueSecond);
+            //            }
+            //            11 - misol
+            //             Console.Write(" a sonni kiriting ");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni kiriting ");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (valueFirst > valueSecond)
+            //            {
+            //                Console.WriteLine(valueSecond);
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(valueFirst);
+            //            }
+            //            12 - misol
+            //             Console.Write(" a sonni kiriting ");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni kiriting ");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (valueFirst > 9 && valueFirst < 100 && valueSecond > 9 && valueSecond < 100)
+            //            {
+            //                Console.WriteLine(valueFirst + valueSecond);
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(valueSecond * valueFirst);
+            //            }
+            //            13 - misol
+            //            Console.Write(" a sonni kiriting ");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni kiriting ");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (valueFirst % 2 == 0 && valueSecond % 2 == 0)
+            //            {
+            //                Console.WriteLine(valueFirst + valueSecond);
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(valueSecond * valueFirst);
+            //            }
+            //            14 - misol
+            //            Console.Write(" a sonni kiriting ");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni kiriting ");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            if (valueFirst % 2 == 1 && valueSecond % 2 == 1)
+            //            {
+            //                Console.WriteLine(valueFirst + valueSecond);
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(valueSecond * valueFirst);
+            //            }
+            //            15 - misol
+            //             Console.Write(" a sonni kiriting ");
+            //            var valueFirst = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" b sonni kiriting ");
+            //            var valueSecond = Convert.ToInt32(Console.ReadLine());
+            //            Console.Write(" c sonni kiriting ");
+            //            var valueThird = Convert.ToInt32(Console.ReadLine());
+            //            var count = 0;
+            //            if (valueFirst % 2 == 1)
+            //            {
+            //                count++;
+            //            }
+            //            if (valueSecond % 2 == 1)
+            //            {
+            //                count++;
+            //            }
+            //            if (valueThird % 2 == 1)
+            //            {
+            //                count++;
+            //            }
+            //            Console.WriteLine(count);
+            //            16 - misol
+            //             Console.Write(" 4 xonali sonni kiriting ");
+            //            var value = Convert.ToInt32(Console.ReadLine());
+            //            var count = 0;
+            //            for (var i = 0; value > 0; i++)
+            //            {
+            //                var result = value % 10;
+            //                value = value / 10;
+            //                if (result % 2 == 0)
+            //                {
+            //                    count++;
+            //                }
+            //                result = 0;
+            //            }
+            //            Console.WriteLine(count); */
+            //            17 - misol
+            //            var count = 0;
+            //            for (var i = 1; i <= 5; i++)
+            //            {
+            //                Console.Write(i + " - sonni kiriting: ");
+            //                var value = Convert.ToInt32(Console.ReadLine());
+            //                if (value % 2 == 0)
+            //                {
+            //                    count++;
+            //                }
+            //            }
+            //            Console.WriteLine(count);
+        }
+    }
+}
