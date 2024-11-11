@@ -1,0 +1,223 @@
+namespace Lesson3_stringlarBilanIshlash_HW
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+        }
+        /// 1-misol
+        public static string HelloName(string name)
+        {
+            var response = $"Hello {name}";
+            return response;
+        }
+        /// 2-misol
+        public static string MakeAbba(string stringFirst, string stringSecond)
+        {
+            var result = $"{stringFirst}{stringSecond}{stringSecond}{stringFirst}";
+            return result;
+        }
+        /// 3-misol
+        public static string MakeOutWord(string stringFirst, string stringSecond)
+        {
+            var result = stringFirst.Substring(0, 2) + stringSecond + stringFirst.Substring(2);
+            return result;
+        }
+        ///4-misol
+        public static string ExtraEnd(string StringValue)
+        {
+            var result = StringValue.Substring(StringValue.Length - 2) + StringValue.Substring(StringValue.Length - 2) + StringValue.Substring(StringValue.Length - 2);
+            return result;
+        }
+        ///5-misol
+        public static string FirstTwo(string stringValue)
+        {
+            var result = "";
+            if (stringValue.Length > 2)
+            {
+                result = stringValue.Substring(0, 2);
+            }
+            else
+            {
+                result = stringValue;
+            }
+            return result;
+        }
+        ///6-misol
+        public static string FirstHalf(string stringValue)
+        {
+            var result = stringValue.Substring(0, stringValue.Length / 2);
+            return result;
+        }
+        ///7-misol
+        public static string WithoutEnd(string stringValue)
+        {
+            var result = stringValue.Substring(1, stringValue.Length - 1);
+            return result;
+        }
+        ///8-misol
+        public static string ComboString(string firstString, string secondString)
+        {
+            var result = "";
+            if (firstString.Length > secondString.Length)
+            {
+                result = secondString + firstString + secondString;
+            }
+            else
+            {
+                result = firstString + secondString + firstString;
+            }
+            return result;
+        }
+        ///9-misol
+        public static string NonStart(string firstString, string secondString)
+        {
+            var result = firstString.Substring(1) + secondString.Substring(1);
+            return result;
+        }
+        ///10-misol
+        public static string LeftTwo(string stringValue)
+        {
+            var result = stringValue.Substring(2) + stringValue.Substring(0, 1);
+            return result;
+        }
+        ///11-misol
+        public static string TheEnd(string stringValue, bool front)
+        {
+            var result = "";
+            if (front is true)
+            {
+                result = stringValue.Substring(0, 1);
+            }
+            else
+            {
+                result = stringValue.Substring(stringValue.Length - 1);
+            }
+            return result;
+        }
+        ///12-misol
+        public static string NTwice(string stringValue, int intValue)
+        {
+            var result = stringValue.Substring(0, intValue) + stringValue.Substring(stringValue.Length - intValue);
+            return result;
+        }
+        ///13-misol
+        public static string MidlleThree(string stringValue)
+        {
+            var result = stringValue.Substring(stringValue.Length / 2 - 1, stringValue.Length / 2 + 1);
+            return result;
+        }
+        ///14-misol
+        public static string ConCat(string firstString, string secondString)
+        {
+            var result = "";
+            var index = secondString.Length;
+            if (firstString[0] == secondString[index])
+            {
+                result = firstString + secondString.Substring(1);
+            }
+            else
+            {
+                result = firstString + secondString;
+            }
+            return result;
+        }
+        ///15-misol
+        public static string LastTwo(string stringValue)
+        {
+            var intValue = 1;
+            var result = stringValue.Substring(0, stringValue.Length - 2);
+            result += stringValue.Substring(stringValue.Length - 1);
+            result += stringValue.Substring(stringValue.Length - 2, intValue);
+            return result;
+        }
+        ///16-misol
+        public static string SeeColor(string stringValue)
+        {
+            var result = "";
+            if (stringValue.Substring(0, 3) == "red")
+            {
+                result = "red";
+            }
+            else if (stringValue.Substring(0, 4) == "blue")
+            {
+                result = "blue";
+            }
+            return result;
+        }
+        ///17-misol
+        public static bool FrontAgain(string stringValue)
+        {
+            bool result = false;
+            if (stringValue.Substring(0, 2) == stringValue.Substring(stringValue.Length - 2))
+            {
+                Console.WriteLine("true");
+            }
+            return result;
+        }
+        ///18-misol
+        public static string MinCat(string firstString, string secondString)
+        {
+            var result = "";
+            if (firstString.Length > secondString.Length)
+            {
+                result += firstString.Substring(secondString.Length + 1);
+                result += secondString;
+            }
+            else if (secondString.Length > firstString.Length)
+            {
+                result += secondString.Substring(firstString.Length + 1);
+                result += firstString;
+            }
+            else
+            {
+                result += firstString + secondString;
+            }
+            return result;
+        }
+        ///19-misol
+        public static string DeFront(string stringValue)
+        {
+            var result = "";
+            if (stringValue[0] == 'a' || stringValue[0] == 'A' && stringValue[1] == 'b' || stringValue[1] == 'B')
+            {
+
+                result += stringValue;
+            }
+            else if (stringValue[0] == 'a' || stringValue[0] == 'A')
+            {
+                result += stringValue.Remove(1, 1);
+            }
+            else if (stringValue[1] == 'b' || stringValue[1] == 'B')
+            {
+                result += stringValue.Remove(0, 1);
+            }
+            else
+            {
+                result += stringValue.Remove(0, 2);
+            }
+            return result;
+        }
+        ///20-misol
+        public static string WithOut(string stringValue)
+        {
+            var result = "";
+            var indexValue = stringValue.Length;
+            if (stringValue[0] == 'x')
+            {
+                result += stringValue.Substring(1);
+            }
+            else if (stringValue[indexValue] == 'x')
+            {
+                result += stringValue.Substring(0, indexValue - 1);
+            }
+            else if (stringValue[indexValue] == 'x' && stringValue[0] == 'x')
+            {
+                result += stringValue.Substring(1, indexValue - 1);
+            }
+            return result;
+        }
+    }
+}

@@ -1,0 +1,106 @@
+namespace Lesson3_HW2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(RepaetSperator("Word", "X", 3));
+        }
+        /// 1-misol
+        public static bool CatDog(string firstString)
+        {
+            var result = false;
+            var counterFirst = 0;
+            var counterSecond = 0;
+            for (var i = 0; i < firstString.Length; i++)
+            {
+                if (firstString[i] == 'c' && firstString[i + 1] == 'a' && firstString[i + 2] == 't')
+                {
+                    counterFirst++;
+                }
+                else if (firstString[i] == 'd' && firstString[i + 1] == 'o' && firstString[i + 2] == 'g')
+                {
+                    counterSecond++;
+                }
+            }
+            if (counterFirst == counterSecond)
+            {
+                result = true;
+            }
+            return result;
+        }
+        ///2-misol
+        public static int CountCode(string firstString)
+        {
+            var counterFirst = 0;
+            for (var i = 0; i < firstString.Length; i++)
+            {
+                if (firstString[i] == 'c' && firstString[i + 1] == 'o' && firstString[i + 3] == 'e')
+                {
+                    counterFirst++;
+                }
+            }
+            return counterFirst;
+        }
+        ///3-misol
+        public static bool EndOther(string firstString, string secondString)
+        {
+            var lowerStringFirst = firstString.ToLower();
+            var lowerStringSecond = secondString.ToLower();
+            var result = false;
+            if (lowerStringFirst.EndsWith(lowerStringSecond))
+            {
+                result = true;
+            }
+            else if (lowerStringSecond.EndsWith(lowerStringFirst))
+            {
+                result = true;
+            }
+
+            return result;
+        }
+        ///4-misol
+        public static bool XyzString(string stringValue)
+        {
+            var result = false;
+            for (var i = 0; i < stringValue.Length; i++)
+            {
+                if (stringValue[i] != '.' && stringValue[i + 1] == 'x' && stringValue[i + 2] == 'y' && stringValue[i + 3] == 'z')
+                {
+                    result = true;
+                }
+            }
+            return result;
+        }
+        ///6-misol
+        public static string RepeatEnd(string stringValue, int intValue)
+        {
+            var result = "";
+            for (var i = 0; i < intValue; i++)
+            {
+                result += stringValue.Substring(stringValue.Length - intValue);
+            }
+            return result;
+        }
+        ///7-misol
+        public static string RepeatFront(string stringValue, int intValue)
+        {
+            var result = stringValue.Substring(0, intValue);
+            result += stringValue.Substring(0, intValue - 1);
+            result += stringValue.Substring(0, intValue - 2);
+            return result;
+        }
+        ///8-misol
+        public static string RepaetSperator(string stringValue, string sep, int intValue)
+        {
+            var result = "";
+            for (var i = 0; i < intValue; i++)
+            {
+                result += stringValue;
+                result += sep;
+            }
+            return result;
+        }
+
+    }
+}

@@ -1,0 +1,100 @@
+namespace Lesson_part3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+        ///2-misol
+        public static string WithOutString(string firstString, string secondString)
+        {
+            var result = firstString.Replace(secondString, " ");
+            return result;
+        }
+        /// 3-misol
+        public static bool EquallsNot(string firstString)
+        {
+            var result = false;
+            var counterFirst = 0;
+            var counterSecond = 0;
+            for (var i = 0; i < firstString.Length; i++)
+            {
+                if (firstString[i] == 'i' && firstString[i + 1] == 's')
+                {
+                    counterFirst++;
+                }
+                else if (firstString[i] == 'n' && firstString[i + 1] == 'o' && firstString[i + 2] == 't')
+                {
+                    counterSecond++;
+                }
+            }
+            if (counterFirst == counterSecond)
+            {
+                result = true;
+            }
+            return result;
+        }
+        ///4-misol
+        public static bool GHappy(string stringValue)
+        {
+            var result = true;
+            for (var i = 0; i < stringValue.Length; i++)
+            {
+                if (stringValue[i] == 'g' && stringValue[i + 1] != 'g' && stringValue[i - 1] != 'g')
+                {
+                    result = false;
+                }
+            }
+            return result;
+        }
+        ///5-misol
+        public static int CountTriple(string stringValue)
+        {
+            var result = 0;
+            for (var i = 0; i < stringValue.Length - 2; i++)
+            {
+                if (stringValue[i] == stringValue[i + 1] && stringValue[i] == stringValue[i + 2])
+                {
+                    result++;
+                }
+            }
+            return result;
+        }
+        ///6-misol
+        public static int SumDigit(string stringValue)
+        {
+            var IntNum = 0;
+            for (var i = 0; i < stringValue.Length; i++)
+            {
+                if (char.IsDigit(stringValue[i]))
+                {
+
+                    IntNum += Convert.ToInt32(stringValue[i]) - '0';
+                }
+            }
+            return IntNum;
+        }
+
+        ///9misol
+        public static string SumNumbers(string stringValue)
+        {
+            var NumberString = "";
+            for (var i = 0; i < stringValue.Length; i++)
+            {
+                if (char.IsDigit(stringValue[i]))
+                {
+
+                    NumberString += stringValue[i];
+                }
+            }
+            return NumberString;
+        }
+        /// 10-misol
+        public static string NotReplace(string StringValue)
+        {
+            var result = StringValue.Replace("is", "is not ");
+            return result;
+        }
+    }
+}
