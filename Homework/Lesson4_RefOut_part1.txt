@@ -1,0 +1,107 @@
+namespace g10;
+
+internal class Program
+{
+    static void Main(string[] texts)
+    {
+
+
+    }
+    ///1-misol
+    public static void CounterLetter(string textValue, ref int counterFirst, ref int counterSecond)
+    {
+        for (var i = textValue.Length - 1; i >= 0; i--)
+        {
+            Console.Write(textValue[i]);
+            if (textValue[i] == 'a' || textValue[i] == 'e' || textValue[i] == 'i' || textValue[i] == 'o' || textValue[i] == 'u')
+            {
+                counterFirst++;
+            }
+            else
+            {
+                counterSecond++;
+            }
+        }
+        Console.WriteLine();
+        Console.WriteLine($"Unlilar : {counterFirst}");
+        Console.WriteLine($"Undoshlar : {counterSecond}");
+    }
+    ///2-misol
+    public static void ReverseText(string textValue, bool boolValue, string result)
+    {
+        for (var i = textValue.Length - 1; i >= 0; i--)
+        {
+            result += textValue[i];
+        }
+        if (result == textValue)
+        {
+            boolValue = true;
+        }
+    }
+    ///3-misol
+    public static void PalindromText(string textValue, ref string result, ref bool boolValue)
+    {
+        for (var i = textValue.Length - 1; i >= 0; i--)
+        {
+            result += textValue[i];
+        }
+        if (textValue == result)
+        {
+            boolValue = true;
+        }
+    }
+    /// 5-misol
+    public static void CharSwap(string stringValue, char fChar, char sChar, ref string result)
+    {
+        foreach (char character in stringValue)
+        {
+            if (character == fChar)
+            {
+                result += sChar;
+            }
+            else
+            {
+                result += character;
+            }
+        }
+    }
+    ///6-misol
+    public static void LengthFunction(string stringValue, ref int result)
+    {
+        foreach (char character in stringValue)
+        {
+            result++;
+        }
+    }
+    ///7-misol
+    public static void SubstringCounter(string stringValue, string substredText, ref int result)
+    {
+        for (var i = 0; i < stringValue.Length - substredText.Length; i++)
+        {
+            if (stringValue.Substring(i, substredText.Length) == substredText)
+            {
+                result++;
+            }
+        }
+    }
+    ///8-misol
+    public static void SwapLetter(string stringValue, ref string result)
+    {
+        foreach (var character in stringValue)
+        {
+            if (char.IsUpper(character) is true)
+            {
+                result += char.ToLower(character);
+            }
+            else if (char.IsLower(character) is true)
+            {
+                result += char.ToUpper(character);
+            }
+            else
+            {
+                result += character;
+            }
+        }
+    }
+
+}
