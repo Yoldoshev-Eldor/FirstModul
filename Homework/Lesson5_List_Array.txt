@@ -1,0 +1,363 @@
+namespace g10;
+
+internal class Program
+{
+    static void Main(string[] texts)
+    {
+        /////1-misol
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //var countThreeRoms = 0;
+
+        //foreach (var number in numbers)
+        //{
+        //    if (number > 99 && number < 1000)
+        //    {
+        //        countThreeRoms++;
+        //    }
+        //}
+        //DisplayList(numbers);
+        //Console.WriteLine($"3 xonali elemantlar {countThreeRoms} ta");
+        ///2-misol
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //var countEven = 0;
+
+        //foreach (var number in numbers)
+        //{
+        //    if (number % 2 == 0)
+        //    {
+        //        countEven++;
+        //    }
+        //}
+        //DisplayList(numbers);
+        //Console.WriteLine($"juft elemantlar {countEven} ta");
+        ///3-misol
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //var countOdd = 0;
+        //foreach (var number in numbers)
+        //{
+        //    if (number % 2 == 1)
+        //    {
+        //        countOdd++;
+        //    }
+        //}
+        //DisplayList(numbers);
+        //Console.WriteLine($"toq elemantlar {countOdd} ta");
+        ///4-misol
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //var counter = 0;
+        //DisplayList(numbers);
+        //foreach (var number in numbers)
+        //{
+        //    if (number % 3 == 0 && number % 7 == 0)
+        //    {
+        //        counter++;
+        //    }
+        //}
+        //Console.WriteLine($"3 ga va 7 ga karrali sonlar {counter} ta");
+        /////5-misol
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //var counter = 0;
+        //var amountOddTwoRoms = 0;
+        //DisplayList(numbers);
+        //foreach (var number in numbers)
+        //{
+        //    if (number % 2 == 1 && number > 9 && number < 100)
+        //    {
+        //        counter++;
+        //    }
+        //}
+        //Console.WriteLine($"sonlar {counter} ta Yig`indisi {amountOddTwoRoms} ga teng");
+        /////6-mis0l
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //var temp = numbers[0];
+        //numbers[0] = numbers[length - 1];
+        //numbers[length - 1] = temp;
+        //DisplayList(numbers);
+        /////7-misol
+        //Console.Write("enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var result = numbers[0] + numbers[1] + numbers[2];
+        //Console.WriteLine($"Result : {result}");
+        /////8-misol
+        //Console.Write("enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var result = numbers[length - 1] + numbers[length - 2] + numbers[length - 3];
+        //Console.WriteLine($"Result : {result}");
+        ///9-misol
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var counterOdd = 0;
+        //var counterEven = 0;
+        //var boolValue = false;
+        //foreach (var number in numbers)
+        //{
+        //    if (number % 2 == 0)
+        //    {
+        //        counterEven++;
+        //    }
+        //    else if (number % 2 == 1)
+        //    {
+        //        counterOdd++;
+        //    }
+        //}
+        //if (counterOdd > counterEven)
+        //{
+        //    boolValue = true;
+        //}
+        //Console.WriteLine(boolValue);
+        ///10-misol
+        //Console.Write("enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //foreach (var number in numbers)
+        //{
+        //    if (number % 2 == 0)
+        //    {
+        //        Console.Write($"{number * 2} ");
+        //    }
+        //    else
+        //    {
+        //        Console.Write($"{number} ");
+        //    }
+        //}
+        ///11-misol
+        //Console.WriteLine("enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var boolValue = true;
+        //foreach (var number in numbers)
+        //{
+        //    if (number % 5 != 0)
+        //    {
+        //        boolValue = false;
+        //    }
+        //}
+        //Console.WriteLine(boolValue);
+        ///12-misol
+        //Console.WriteLine("enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var boolValue = false;
+        //if (numbers[0] > 9 && numbers[0] < 100 && numbers[1] > 9
+        //    && numbers[1] < 100 && numbers[2] > 9 && numbers[2] < 100)
+        //{
+        //    boolValue = true;
+        //}
+        //Console.WriteLine(boolValue);
+        ///13-misol
+        //Console.WriteLine("enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var boolValue = false;
+        //if (numbers[0] % 2 == 0 && numbers[1] % 2 == 00 &&
+        //    numbers[length - 1] % 2 == 1 && numbers[length - 2] % 2 == 00)
+        //{
+        //    boolValue = true;
+        //}
+        //Console.WriteLine(boolValue);
+        ///14-misol
+        //Console.Write("enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var result = numbers[0];
+        //foreach (var number in numbers)
+        //{
+        //    if (result > number)
+        //    {
+        //        result = number;
+        //    }
+        //}
+        //Console.WriteLine(result);
+        ///15-misol
+        //Console.Write("enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var maxxValue = numbers[0];
+        //var minValue = numbers[0];
+        //var result = 0;
+        //foreach (var number in numbers)
+        //{
+        //    if (minValue > number)
+        //    {
+        //        minValue = number;
+        //    }
+        //    if (maxxValue < number)
+        //    {
+        //        maxxValue = number;
+        //    }
+        //}
+        //result = maxxValue + minValue;
+        //Console.WriteLine($" Maximum : {maxxValue}   minimum : {minValue} ");
+        //Console.WriteLine($"result : {result}");
+        ///16-misol
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //for (var i = 0; i < numbers.Count; ++i)
+        //{
+        //    if (numbers[i] > 0 && numbers[i] < 100)
+        //    {
+        //        numbers[i] += 100;
+        //    }
+        //}
+        //DisplayList(numbers);
+        ///17-misol
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var counter = 0;
+        //for (var i = 0; i < numbers.Count; ++i)
+        //{
+        //    if (numbers[0] < numbers[i])
+        //    {
+        //        counter++;
+        //    }
+        //}
+        //Console.WriteLine($" 1 - elementdan katta elementlat miqdori {counter} ta");
+        ///19-misol
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var result = 0;
+        //for (var i = 0; i < numbers.Count; ++i)
+        //{
+        //    if (numbers[length - 1] < numbers[i])
+        //    {
+        //        result += numbers[i];
+        //    }
+        //}
+        //Console.WriteLine($" result : {result}");
+        ///20-misol
+        //Console.Write($"Enter length :");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var result = "hello";
+        //foreach (var number in numbers)
+        //{
+        //    if (number % 3 != 0 || number % 4 != 0)
+        //    {
+        //        result = "salom";
+        //    }
+        //}
+        //Console.WriteLine($"Result : {result}");
+        /////21-misol
+        //Console.Write("Enter length :");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var boolValue = true;
+        //for (var i = 0; i < numbers.Count - 1; ++i)
+        //{
+        //    if (numbers[i] >= numbers[i + 1])
+        //    {
+        //        boolValue = false;
+        //    }
+        //}
+        //Console.WriteLine($"Result : {boolValue}");
+        /////22-misol
+        //Console.Write("Enter length :");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var boolValue = true;
+        //for (var i = 0; i < numbers.Count - 1; ++i)
+        //{
+        //    if (numbers[i] <= numbers[i + 1])
+        //    {
+        //        boolValue = false;
+        //    }
+        //}
+        //Console.WriteLine($"Result : {boolValue}");
+        /////23-misol
+        //Console.Write("Enter length :");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var maxxValue = numbers[0];
+        //var minValue = numbers[0];
+        //for (var i = 0; i < numbers.Count; i++)
+        //{
+        //    if (numbers[i] < minValue)
+        //    {
+        //        minValue = numbers[i];
+        //    }
+        //    if (numbers[i] > maxxValue)
+        //    {
+        //        maxxValue = numbers[i];
+        //    }
+        //}
+        //for (var i = 0; i < numbers.Count; i++)
+        //{
+        //    if (numbers[i] == minValue)
+        //    {
+        //        numbers[i] = maxxValue;
+        //    }
+        //    else if (numbers[i] == maxxValue)
+        //    {
+        //        numbers[i] = minValue;
+        //    }
+        //}
+        //DisplayList(numbers);
+        ///24-misol
+        //Console.Write("Enter length : ");
+        //var length = int.Parse(Console.ReadLine());
+        //var numbers = FillAndGetList(length);
+        //DisplayList(numbers);
+        //var result = 0;
+        //foreach (var number in numbers)
+        //{
+        //    result += number;
+        //}
+        //Console.WriteLine($"Result: {result}");
+    }
+
+    public static List<int> FillAndGetList(int length)
+    {
+        var digits = new List<int>();
+        for (int i = 0; i < length; i++)
+        {
+            Console.Write($"{i} : ");
+            var number = int.Parse(Console.ReadLine());
+            digits.Add(number);
+        }
+
+        return digits;
+    }
+
+    public static void DisplayList(List<int> digits)
+    {
+        foreach (var digit in digits)
+        {
+            Console.Write($"{digit} ");
+        }
+        Console.WriteLine();
+    }
+}
