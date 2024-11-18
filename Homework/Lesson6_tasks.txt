@@ -1,0 +1,63 @@
+namespace Lesson6_Tasks
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /////3-misol
+            //Console.Write("Enter text :");
+            //var text = Console.ReadLine();
+            //var count = 0;
+            //for (var i = text.Length-1; i>=0; i--)
+            //{
+            //    if (char.IsLetter(text[i]))
+            //    {
+            //        count++;
+            //        if (text[i-1] == ' ')
+            //        {
+            //            break;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine(count );
+
+
+            /////5-misol
+            //var massivFirst = new List<int>();
+            //var length = int.Parse(Console.ReadLine());
+            //for (var i = 0; i < length; i++)
+            //{
+            //    var number = int.Parse(Console.ReadLine());
+            //    massivFirst.Add(number);
+            //}
+            //var massivSecond = new List<int>();
+            //var counter = 0;
+            //for (var i = 0; i < length; i++)
+            //{
+            //    for (var j = 1; j <= massivFirst[i]; j++)
+            //    {
+            //        if (massivFirst[i] % j == 0)
+            //        {
+            //            counter++;
+            //        }
+            //    }
+            //    if (counter == 2)
+            //    {
+            //        massivSecond.Add(massivFirst[i]);
+            //    }
+            //    counter = 0;
+            //}
+            //foreach (var number in massivFirst)
+            //{
+            //    Console.Write($"{number}  ");
+            //}
+            //Console.WriteLine();
+            //foreach (var number in massivSecond)
+            //{
+            //    Console.Write($"{number}  ");
+            //}
+
+
+        }
+    }
+}
