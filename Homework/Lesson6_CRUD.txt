@@ -1,0 +1,123 @@
+namespace Leeson6_CRUD
+{
+    internal class Program
+    {
+        public static List<string> PhoneNumbers = new List<string>();
+        public static void DataSeed()
+        {
+            PhoneNumbers.Add("+998971234567");
+            PhoneNumbers.Add("+998771345767");
+            PhoneNumbers.Add("+998993867367");
+            PhoneNumbers.Add("+998995683725");
+        }
+        static void Main(string[] args)
+        {
+            DataSeed();
+            StartFrontend();
+        }
+
+        public static void StartFrontend()
+        {
+            while (true)
+            {
+                Console.WriteLine(" 1. Add Phone Number : ");
+                Console.WriteLine(" 2. Update Phone Number : ");
+                Console.WriteLine(" 3. Delete Phone Number :");
+                Console.WriteLine(" 4. Read Phone Number :");
+                Console.Write("choose : ");
+                var option = int.Parse(Console.ReadLine());
+                if (option == 1)
+                {
+                    Console.WriteLine("Enter New Number : ");
+                    var number = Console.ReadLine();
+                    var result = AddNumber(number);
+                    if (result > -1)
+                    {
+                        Console.WriteLine("New Phone Number Added");
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error");
+                    }
+                }
+                else if (option == 2)
+                {
+                    Console.Write("Enter old number : ");
+                    var oldNumber = Console.ReadLine();
+                    Console.Write("Enter new number : ");
+                    var newNumber = Console.ReadLine();
+                    var chekContain = PhoneNumbers.Contains(oldNumber);
+                    if (chekContain is true)
+                    {
+                        var indexOldNumber = PhoneNumbers.IndexOf(oldNumber);
+                        PhoneNumbers[indexOldNumber] = newNumber;
+                        Console.WriteLine("the number has been updated. ");
+                    }
+                    else if (chekContain is false)
+                    {
+                        Console.WriteLine("such a number has not been entered before. Enter the number you have");
+                    }
+                }
+                else if (option == 3)
+                {
+                    Console.Write(" Enter delete number : ");
+                    var number = Console.ReadLine();
+                    var result = DeleteNumber(number);
+                    if (result is true)
+                    {
+                        Console.WriteLine("Delete Number...");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Not deleted, error occured ");
+                    }
+                }
+                else if (option == 4)
+                {
+                    var numbers = GetPhoneNumber();
+                    foreach (var number in numbers)
+                    {
+                        Console.WriteLine(number);
+                    }
+                }
+                Console.ReadKey();
+                Console.Clear();
+            }
+
+        }
+        public static int AddNumber(string number)
+        {
+            var resultFirst = PhoneNumbers.Contains(number);
+            var resultSecond = CheckNumber(number);
+            if (resultFirst is false && resultSecond is true)
+            {
+                PhoneNumbers.Add(number);
+                return PhoneNumbers.IndexOf(number);
+            }
+            return -1;
+        }
+        public static bool DeleteNumber(string number)
+        {
+            var chekContain = PhoneNumbers.Contains(number);
+
+            PhoneNumbers.Remove(number);
+
+            return chekContain;
+        }
+        public static bool CheckNumber(string number)
+        {
+            var boolValue = false;
+            if (number[0] == '+' && number[1] == '9' && number[2] == '9'
+                && number[3] == 8 && number.Length == 13)
+            {
+                boolValue = true;
+            }
+            return boolValue;
+        }
+        public static List<string> GetPhoneNumber()
+        {
+            return PhoneNumbers;
+        }
+    }
+}
