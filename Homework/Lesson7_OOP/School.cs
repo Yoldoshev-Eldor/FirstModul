@@ -2,17 +2,17 @@
 
 internal class School
 {
-    public static string Region {  get; set; }
-    public static string District { get; set; }
-    public static int SchoolNumber { get; set; }
-    public static int BuildYear { get; set; }
-    public static int NumberOfStudents { get; set; }
-    public static int Floor { get; set; }
-    public static int Rooms { get; set; }
-    public static string Uniform {  get; set; }
-    public static string Director {  get; set; }
-    public static string Motto { get; set; }
-     public void DisplayInfo()
+    public string Region { get; set; }
+    public string District { get; set; }
+    public int SchoolNumber { get; set; }
+    public int BuildYear { get; set; }
+    public int NumberOfStudents { get; set; }
+    public int Floor { get; set; }
+    public int Rooms { get; set; }
+    public string Uniform { get; set; }
+    public string Director { get; set; }
+    public string Motto { get; set; }
+    public void DisplayInfo()
     {
         Console.WriteLine($"Region :             {Region}");
         Console.WriteLine($"District :           {District}");

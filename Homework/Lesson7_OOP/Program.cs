@@ -49,7 +49,7 @@
                 "identity, tradition, and the human condition in the face of societal change.";
             books.Add(firstBook);
             firstBook.DisplayInfo();
-           
+
             List<Computer> computers = new List<Computer>();
             Computer firstComputer = new Computer();
             firstComputer.Model = "Asus vivo book";
@@ -65,7 +65,7 @@
             Computer secondComputer = new Computer();
             secondComputer.Model = "Victus";
             secondComputer.Display = "Amoled";
-            secondComputer.Ram = 8; 
+            secondComputer.Ram = 8;
             secondComputer.Rom = 2;
             secondComputer.Cpu = "Ryzen 3";
             secondComputer.YearOfIssue = 2024;
@@ -74,7 +74,37 @@
             secondComputer.DisplayInfo();
 
             List<School> schools = new List<School>();
-            School firstSchool = new School();
+            School firstSchool = new School()
+            {
+                Region = "Surkhandarya",
+                District = "Sherabad",
+                SchoolNumber = 70,
+                BuildYear = 2017,
+                NumberOfStudents = 450,
+                Director = "X.baratov",
+                Floor = 3,
+                Rooms = 26,
+                Uniform = "White dress and black jeans",
+                Motto = "Kuch birlikda"
+            };
+            schools.Add(firstSchool);
+            firstSchool.DisplayInfo();
+            School secondSchool = new School()
+            {
+                Region = "Surkhandarya",
+                District = "Sherabad",
+                SchoolNumber = 4,
+                BuildYear = 1974,
+                NumberOfStudents = 600,
+                Director = "sh.poyonov",
+                Floor = 3,
+                Rooms = 32,
+                Uniform = "White dress and black jeans",
+                Motto = "i dont know."
+            };
+            schools.Add(secondSchool);
+            secondSchool.DisplayInfo();
+
         }
     }
 

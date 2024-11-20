@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|d:\\projects\\firstmodul_no_git\\lesson7_oop\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|d:\\projects\\firstmodul_no_git\\lesson7_oop\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|d:\\projects\\firstmodul_no_git\\lesson7_oop\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|solutionrelative:school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|d:\\projects\\firstmodul_no_git\\lesson7_oop\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|solutionrelative:computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|d:\\projects\\firstmodul_no_git\\lesson7_oop\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|solutionrelative:school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|d:\\projects\\firstmodul_no_git\\lesson7_oop\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|d:\\projects\\firstmodul_no_git\\lesson7_oop\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E18C1536-353A-4718-A2AC-8DD83074C654}|Lesson7_OOP.csproj|d:\\projects\\firstmodul_no_git\\lesson7_oop\\lesson7_oop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Computer.cs",
               "DocumentMoniker": "D:\\Projects\\FirstModul_NO_GIT\\Lesson7_OOP\\Computer.cs",
               "RelativeDocumentMoniker": "Computer.cs",
@@ -46,23 +46,25 @@
               "RelativeToolTip": "Computer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAADwvwcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:15:27.587Z"
+              "WhenOpened": "2024-11-20T08:15:27.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "School.cs",
               "DocumentMoniker": "D:\\Projects\\FirstModul_NO_GIT\\Lesson7_OOP\\School.cs",
               "RelativeDocumentMoniker": "School.cs",
               "ToolTip": "D:\\Projects\\FirstModul_NO_GIT\\Lesson7_OOP\\School.cs",
               "RelativeToolTip": "School.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwBcAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:14:47.444Z"
+              "WhenOpened": "2024-11-20T08:14:47.444Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Animal.cs",
               "DocumentMoniker": "D:\\Projects\\FirstModul_NO_GIT\\Lesson7_OOP\\Animal.cs",
               "RelativeDocumentMoniker": "Animal.cs",
@@ -70,8 +72,7 @@
               "RelativeToolTip": "Animal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:10:59.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T08:10:59.975Z"
             },
             {
               "$type": "Document",
@@ -81,14 +82,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Projects\\FirstModul_NO_GIT\\Lesson7_OOP\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAE8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T06:40:28.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Projects\\FirstModul_NO_GIT\\Lesson7_OOP\\Book.cs",
               "RelativeDocumentMoniker": "Book.cs",
