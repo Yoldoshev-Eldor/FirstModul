@@ -1,0 +1,14 @@
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\bin\Debug\net8.0\Lesson7_OOP.exe
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\bin\Debug\net8.0\Lesson7_OOP.deps.json
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\bin\Debug\net8.0\Lesson7_OOP.runtimeconfig.json
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\bin\Debug\net8.0\Lesson7_OOP.dll
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\bin\Debug\net8.0\Lesson7_OOP.pdb
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\obj\Debug\net8.0\Lesson7_OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\obj\Debug\net8.0\Lesson7_OOP.AssemblyInfoInputs.cache
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\obj\Debug\net8.0\Lesson7_OOP.AssemblyInfo.cs
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\obj\Debug\net8.0\Lesson7_OOP.csproj.CoreCompileInputs.cache
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\obj\Debug\net8.0\Lesson7_OOP.dll
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\obj\Debug\net8.0\refint\Lesson7_OOP.dll
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\obj\Debug\net8.0\Lesson7_OOP.pdb
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\obj\Debug\net8.0\Lesson7_OOP.genruntimeconfig.cache
+D:\Projects\FirstModul_NO_GIT\Lesson7_OOP\obj\Debug\net8.0\ref\Lesson7_OOP.dll
