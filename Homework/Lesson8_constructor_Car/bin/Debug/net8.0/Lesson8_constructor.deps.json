@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Lesson8_constructor/1.0.0": {
+        "runtime": {
+          "Lesson8_constructor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lesson8_constructor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\bin\Debug\net8.0\Lesson8_constructor.exe
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\bin\Debug\net8.0\Lesson8_constructor.deps.json
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\bin\Debug\net8.0\Lesson8_constructor.runtimeconfig.json
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\bin\Debug\net8.0\Lesson8_constructor.dll
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\bin\Debug\net8.0\Lesson8_constructor.pdb
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\obj\Debug\net8.0\Lesson8_constructor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\obj\Debug\net8.0\Lesson8_constructor.AssemblyInfoInputs.cache
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\obj\Debug\net8.0\Lesson8_constructor.AssemblyInfo.cs
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\obj\Debug\net8.0\Lesson8_constructor.csproj.CoreCompileInputs.cache
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\obj\Debug\net8.0\Lesson8_constructor.dll
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\obj\Debug\net8.0\refint\Lesson8_constructor.dll
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\obj\Debug\net8.0\Lesson8_constructor.pdb
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\obj\Debug\net8.0\Lesson8_constructor.genruntimeconfig.cache
+D:\Projects\FirstModul_NO_GIT\Lesson8_constructor\obj\Debug\net8.0\ref\Lesson8_constructor.dll
