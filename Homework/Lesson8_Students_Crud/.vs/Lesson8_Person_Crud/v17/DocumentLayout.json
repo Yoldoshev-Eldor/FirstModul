@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\FirstModul_NO_GIT\\Lesson8_Person_Crud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DED59EC8-EC0D-4C4B-A1C1-9631BE9A4B74}|Lesson8_Person_Crud.csproj|d:\\projects\\firstmodul_no_git\\lesson8_person_crud\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED59EC8-EC0D-4C4B-A1C1-9631BE9A4B74}|Lesson8_Person_Crud.csproj|solutionrelative:service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED59EC8-EC0D-4C4B-A1C1-9631BE9A4B74}|Lesson8_Person_Crud.csproj|d:\\projects\\firstmodul_no_git\\lesson8_person_crud\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED59EC8-EC0D-4C4B-A1C1-9631BE9A4B74}|Lesson8_Person_Crud.csproj|solutionrelative:model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED59EC8-EC0D-4C4B-A1C1-9631BE9A4B74}|Lesson8_Person_Crud.csproj|d:\\projects\\firstmodul_no_git\\lesson8_person_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED59EC8-EC0D-4C4B-A1C1-9631BE9A4B74}|Lesson8_Person_Crud.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\Projects\\FirstModul_NO_GIT\\Lesson8_Person_Crud\\Service\\StudentService.cs",
+              "RelativeDocumentMoniker": "Service\\StudentService.cs",
+              "ToolTip": "D:\\Projects\\FirstModul_NO_GIT\\Lesson8_Person_Crud\\Service\\StudentService.cs*",
+              "RelativeToolTip": "Service\\StudentService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:31:49.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Projects\\FirstModul_NO_GIT\\Lesson8_Person_Crud\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "Model\\Student.cs",
+              "ToolTip": "D:\\Projects\\FirstModul_NO_GIT\\Lesson8_Person_Crud\\Model\\Student.cs*",
+              "RelativeToolTip": "Model\\Student.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:31:29.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\FirstModul_NO_GIT\\Lesson8_Person_Crud\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projects\\FirstModul_NO_GIT\\Lesson8_Person_Crud\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:29:53.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
