@@ -7,13 +7,25 @@ internal class PostService
     private List<Post> posts;
     public PostService()
     {
-        var posts = new List<Post>();
+        posts = new List<Post>();
     }
     public Post AddPost(Post addingPost)
     {
         addingPost.Id = Guid.NewGuid();
         posts.Add(addingPost);
         return addingPost;
+    }
+    public Post GetById(Guid postId)
+    {
+        foreach (var post in posts)
+        {
+            if (post.Id == postId)
+            {
+                return post;
+            }
+        }
+
+        return null;
     }
     public bool DeletePost(Guid postId)
     {
@@ -131,6 +143,43 @@ internal class PostService
 
 
         return responseComments;
+    }
+    public bool AddCommentToPost(Guid postId, string comment)
+    {
+        var post = GetById(postId);
+
+        if (post is null)
+        {
+            return false;
+        }
+
+        post.Comments.Add(comment);
+        return true;
+    }
+
+    public bool AddViewerNameToPost(Guid postId, string viewerName)
+    {
+        var post = GetById(postId);
+
+        if (post is null)
+        {
+            return false;
+        }
+
+        post.ViewerNames.Add(viewerName);
+        return true;
+    }
+
+    public bool AddLikeToPost(Guid postId)
+    {
+        var post = GetById(postId);
+        if (post is null)
+        {
+            return false;
+        }
+        post.QuantityLikes++;
+
+        return true;
     }
 
 }
